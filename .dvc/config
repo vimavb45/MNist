@@ -1,4 +1,6 @@
 [core]
-    remote = storage
+    remote = remote_storage
 ['remote "storage"']
     url = gdrive://1HlOJg06vK2IyuV7PCGKWSYVdK_Gc7qfd
+['remote "remote_storage"']
+    url = gs://buckets_of_cloud/
