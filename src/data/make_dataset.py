@@ -14,7 +14,7 @@ from torch.utils.data import Dataset
 
 
 class CorruptMnist(Dataset):
-    def __init__(self, train: bool, in_folder: str = "data/raw", out_folder: str = "data/processed") -> None:
+    def __init__(self, train: bool, in_folder: str = "", out_folder: str = "") -> None:
         super().__init__()
 
         self.train = train
